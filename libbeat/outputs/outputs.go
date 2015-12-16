@@ -21,6 +21,7 @@ type MothershipConfig struct {
 	Path              string
 	Db                int
 	Db_topology       int
+	Topic             string
 	Timeout           int
 	ReconnectInterval int    `yaml:"reconnect_interval"`
 	Filename          string `yaml:"filename"`
